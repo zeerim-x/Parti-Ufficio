@@ -226,7 +226,8 @@
                         "TEXCOORD_0" : 21,
                         "NORMAL" : 22
                     },
-                    "indices" : 23
+                    "indices" : 23,
+                    "material" : 1
                 }
             ]
         },
