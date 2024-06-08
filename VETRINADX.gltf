@@ -52,7 +52,7 @@
           "clearcoatRoughnessFactor": 0.029999999329447746
         },
         "KHR_materials_transmission": {
-          "transmissionFactor": 1
+          "transmissionFactor": 0.8
         },
         "KHR_materials_ior": {
           "ior": 1.4500000476837158
