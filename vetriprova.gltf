@@ -1894,6 +1894,41 @@
             ]
         }
     ],
+
+{
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.5, 0.5, 0.5, 0.5]
+      },
+      "normalTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "alphaMode": "BLEND",
+      "name": "GlassMaterial"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "uri": "noise_texture.png"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ]
+}
     "accessors" : [
         {
             "bufferView" : 0,
