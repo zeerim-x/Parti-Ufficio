@@ -69,7 +69,8 @@
                 ],
                 "metallicFactor": 0,
                 "roughnessFactor": 0
-            }
+            },
+        "alphaMode": "BLEND" 
         },
         {
             "doubleSided": true,
