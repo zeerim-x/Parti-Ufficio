@@ -1,0 +1,296 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_lights_punctual"
+    ],
+    "extensionsRequired" : [
+        "KHR_lights_punctual"
+    ],
+    "extensions" : {
+        "KHR_lights_punctual" : {
+            "lights" : [
+                {
+                    "color" : [
+                        0.7907522320747375,
+                        0.9185971617698669,
+                        1
+                    ],
+                    "intensity" : 27.17570653294113,
+                    "type" : "point",
+                    "name" : "Spot.003"
+                },
+                {
+                    "color" : [
+                        0.7907522320747375,
+                        0.9185971617698669,
+                        1
+                    ],
+                    "intensity" : 27.17570653294113,
+                    "type" : "point",
+                    "name" : "Spot.002"
+                },
+                {
+                    "color" : [
+                        0.7907522320747375,
+                        0.9185971617698669,
+                        1
+                    ],
+                    "intensity" : 27.17570653294113,
+                    "type" : "point",
+                    "name" : "Spot.001"
+                },
+                {
+                    "color" : [
+                        0.7907522320747375,
+                        0.9185971617698669,
+                        1
+                    ],
+                    "intensity" : 27.17570653294113,
+                    "type" : "point",
+                    "name" : "Spot.004"
+                }
+            ]
+        }
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "principled_baker_settings" : {
+                    "use_autodetect" : 0,
+                    "bake_mode" : 0
+                },
+                "principled_baker_suffixlist" : [
+                    {
+                        "name" : "Color",
+                        "suffix" : "_color"
+                    },
+                    {
+                        "name" : "Metallic",
+                        "suffix" : "_metallic"
+                    },
+                    {
+                        "name" : "Roughness",
+                        "suffix" : "_roughness"
+                    },
+                    {
+                        "name" : "Normal",
+                        "suffix" : "_normal"
+                    },
+                    {
+                        "name" : "Displacement",
+                        "suffix" : "_disp"
+                    },
+                    {
+                        "name" : "Alpha",
+                        "suffix" : "_alpha"
+                    },
+                    {
+                        "name" : "Emission",
+                        "suffix" : "_emission"
+                    },
+                    {
+                        "name" : "Ambient Occlusion",
+                        "suffix" : "_ao"
+                    },
+                    {
+                        "name" : "Diffuse",
+                        "suffix" : "_diffuse"
+                    },
+                    {
+                        "name" : "Glossiness",
+                        "suffix" : "_glossiness"
+                    },
+                    {
+                        "name" : "Bump",
+                        "suffix" : "_bump"
+                    },
+                    {
+                        "name" : "Vertex Color",
+                        "suffix" : "_vertex"
+                    },
+                    {
+                        "name" : "Material ID",
+                        "suffix" : "_MatID"
+                    },
+                    {
+                        "name" : "Wireframe",
+                        "suffix" : "_wireframe"
+                    },
+                    {
+                        "name" : "Subsurface",
+                        "suffix" : "_subsurface"
+                    },
+                    {
+                        "name" : "Subsurface Radius",
+                        "suffix" : "_subsurface_radius"
+                    },
+                    {
+                        "name" : "Subsurface Color",
+                        "suffix" : "_subsurface_color"
+                    },
+                    {
+                        "name" : "Specular",
+                        "suffix" : "_specular"
+                    },
+                    {
+                        "name" : "Specular Tint",
+                        "suffix" : "_specular_tint"
+                    },
+                    {
+                        "name" : "Anisotropic",
+                        "suffix" : "_anisotropic"
+                    },
+                    {
+                        "name" : "Anisotropic Rotation",
+                        "suffix" : "_anisotropic_rotation"
+                    },
+                    {
+                        "name" : "Sheen",
+                        "suffix" : "_sheen"
+                    },
+                    {
+                        "name" : "Sheen Tint",
+                        "suffix" : "_sheen_tint"
+                    },
+                    {
+                        "name" : "Clearcoat",
+                        "suffix" : "_clearcoat"
+                    },
+                    {
+                        "name" : "Clearcoat Roughness",
+                        "suffix" : "_clearcoat_roughness"
+                    },
+                    {
+                        "name" : "IOR",
+                        "suffix" : "_ior"
+                    },
+                    {
+                        "name" : "Transmission",
+                        "suffix" : "_transmission"
+                    },
+                    {
+                        "name" : "Transmission Roughness",
+                        "suffix" : "_transmission_roughness"
+                    },
+                    {
+                        "name" : "Clearcoat Normal",
+                        "suffix" : "_clearcoat_normal"
+                    },
+                    {
+                        "name" : "Tangent",
+                        "suffix" : "_tangent"
+                    }
+                ]
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 0
+                }
+            },
+            "name" : "Lampadario 1 Luce",
+            "rotation" : [
+                -0.5,
+                0.5,
+                0.5,
+                0.5000001192092896
+            ],
+            "scale" : [
+                1,
+                6.8299994468688965,
+                1
+            ],
+            "translation" : [
+                -0.27098947763442993,
+                2.3512449264526367,
+                3.7649641036987305
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 1
+                }
+            },
+            "name" : "Lampadario 2 Luce",
+            "rotation" : [
+                -0.7071067094802856,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                1,
+                6.499999523162842,
+                1
+            ],
+            "translation" : [
+                -1.0684062242507935,
+                2.3813729286193848,
+                2.353727340698242
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 2
+                }
+            },
+            "name" : "Lampadario 3 Luce",
+            "rotation" : [
+                -0.7071067094802856,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                1,
+                5.999999523162842,
+                1
+            ],
+            "translation" : [
+                -1.047160029411316,
+                2.401426315307617,
+                -2.0060970783233643
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 3
+                }
+            },
+            "name" : "Lampadario 4 Luce",
+            "rotation" : [
+                -0.7071067094802856,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                1,
+                5.999999523162842,
+                1
+            ],
+            "translation" : [
+                -1.0519119501113892,
+                2.3715479373931885,
+                -3.7768423557281494
+            ]
+        }
+    ]
+}
