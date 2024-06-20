@@ -61,10 +61,10 @@
       "name": "vetrina",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1,
-          1,
-          1,
-          0.8
+          0,
+          0,
+          0,
+          0
         ],
         "metallicFactor": 0,
         "roughnessFactor": 0
