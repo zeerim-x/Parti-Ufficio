@@ -13,171 +13,6 @@
     "scene" : 0,
     "scenes" : [
         {
-            "extras" : {
-                "flip_fluid" : {},
-                "flip_fluid_helper" : {
-                    "is_auto_frame_load_cmd_operator_running" : 0,
-                    "alembic_output_filepath" : "//PROVA.abc",
-                    "is_alembic_output_filepath_set" : 1
-                },
-                "flip_fluid_material_library" : {
-                    "library_path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library",
-                    "material_list" : [
-                        {
-                            "name" : "FF Apple Juice",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Apple Juice.blend",
-                            "type" : 0,
-                            "icon_id" : 1044,
-                            "imported_icon_id" : 1045
-                        },
-                        {
-                            "name" : "FF Beer",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Beer.blend",
-                            "type" : 0,
-                            "icon_id" : 1046,
-                            "imported_icon_id" : 1047
-                        },
-                        {
-                            "name" : "FF Blood",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Blood.blend",
-                            "type" : 0,
-                            "icon_id" : 1048,
-                            "imported_icon_id" : 1049
-                        },
-                        {
-                            "name" : "FF Caramel",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Caramel.blend",
-                            "type" : 0,
-                            "icon_id" : 1050,
-                            "imported_icon_id" : 1051
-                        },
-                        {
-                            "name" : "FF Chocolate",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Chocolate.blend",
-                            "type" : 0,
-                            "icon_id" : 1052,
-                            "imported_icon_id" : 1053
-                        },
-                        {
-                            "name" : "FF Coffee",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Coffee.blend",
-                            "type" : 0,
-                            "icon_id" : 1054,
-                            "imported_icon_id" : 1055
-                        },
-                        {
-                            "name" : "FF Copper",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Copper.blend",
-                            "type" : 0,
-                            "icon_id" : 1056,
-                            "imported_icon_id" : 1057
-                        },
-                        {
-                            "name" : "FF Milk",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Milk.blend",
-                            "type" : 0,
-                            "icon_id" : 1058,
-                            "imported_icon_id" : 1059
-                        },
-                        {
-                            "name" : "FF Orange Juice",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Orange Juice.blend",
-                            "type" : 0,
-                            "icon_id" : 1060,
-                            "imported_icon_id" : 1061
-                        },
-                        {
-                            "name" : "FF Water (clear)",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (clear).blend",
-                            "type" : 0,
-                            "icon_id" : 1062,
-                            "imported_icon_id" : 1063
-                        },
-                        {
-                            "name" : "FF Water (iced)",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (iced).blend",
-                            "type" : 0,
-                            "icon_id" : 1064,
-                            "imported_icon_id" : 1065
-                        },
-                        {
-                            "name" : "FF Water (ocean 1)",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean 1).blend",
-                            "type" : 0,
-                            "icon_id" : 1066,
-                            "imported_icon_id" : 1067
-                        },
-                        {
-                            "name" : "FF Water (ocean 2)",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean 2).blend",
-                            "type" : 0,
-                            "icon_id" : 1068,
-                            "imported_icon_id" : 1069
-                        },
-                        {
-                            "name" : "FF Water (ocean volumetric)",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean volumetric).blend",
-                            "type" : 0,
-                            "icon_id" : 1070,
-                            "imported_icon_id" : 1071
-                        },
-                        {
-                            "name" : "FF Wax",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Wax.blend",
-                            "type" : 0,
-                            "icon_id" : 1072,
-                            "imported_icon_id" : 1073
-                        },
-                        {
-                            "name" : "FF Wine Red",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Wine Red.blend",
-                            "type" : 0,
-                            "icon_id" : 1074,
-                            "imported_icon_id" : 1075
-                        },
-                        {
-                            "name" : "FF Bubble",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Bubble.blend",
-                            "type" : 1,
-                            "icon_id" : 1076,
-                            "imported_icon_id" : 1077
-                        },
-                        {
-                            "name" : "FF Foam",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Foam.blend",
-                            "type" : 1,
-                            "icon_id" : 1078,
-                            "imported_icon_id" : 1079
-                        },
-                        {
-                            "name" : "FF Spray",
-                            "description" : "",
-                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Spray.blend",
-                            "type" : 1,
-                            "icon_id" : 1080,
-                            "imported_icon_id" : 1081
-                        }
-                    ]
-                }
-            },
             "name" : "Scene",
             "nodes" : [
                 0
@@ -186,27 +21,23 @@
     ],
     "nodes" : [
         {
-            "extras" : {
-                "flip_fluid" : {},
-                "ant_landscape" : {}
-            },
             "mesh" : 0,
             "name" : "Main 01 - Azienda",
             "rotation" : [
-                0.20828917622566223,
-                0.7257820963859558,
-                -0.583732008934021,
-                0.2985178828239441
+                0.4990711808204651,
+                0.5009271502494812,
+                -0.5009271502494812,
+                0.4990711510181427
             ],
             "scale" : [
                 0.19201388955116272,
                 0.19201388955116272,
-                0.1920139044523239
+                0.19201388955116272
             ],
             "translation" : [
-                -0.07047399878501892,
-                2.792710065841675,
-                -3.2235300540924072
+                -1.7493375539779663,
+                1.8757195472717285,
+                -2.78290057182312
             ]
         }
     ],
@@ -222,9 +53,6 @@
                 "KHR_materials_emissive_strength" : {
                     "emissiveStrength" : 16.174400173004642
                 }
-            },
-            "extras" : {
-                "flip_fluid_material_library" : {}
             },
             "name" : "Bianco.002",
             "pbrMetallicRoughness" : {
