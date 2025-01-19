@@ -1,0 +1,404 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression",
+        "KHR_materials_specular",
+        "KHR_materials_ior"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "flip_fluid" : {},
+                "flip_fluid_helper" : {
+                    "is_auto_frame_load_cmd_operator_running" : 0,
+                    "alembic_output_filepath" : "//ScenaSimX.abc",
+                    "is_alembic_output_filepath_set" : 1
+                },
+                "flip_fluid_material_library" : {
+                    "library_path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library",
+                    "material_list" : [
+                        {
+                            "name" : "FF Apple Juice",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Apple Juice.blend",
+                            "type" : 0,
+                            "icon_id" : 1035,
+                            "imported_icon_id" : 1036
+                        },
+                        {
+                            "name" : "FF Beer",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Beer.blend",
+                            "type" : 0,
+                            "icon_id" : 1037,
+                            "imported_icon_id" : 1038
+                        },
+                        {
+                            "name" : "FF Blood",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Blood.blend",
+                            "type" : 0,
+                            "icon_id" : 1039,
+                            "imported_icon_id" : 1040
+                        },
+                        {
+                            "name" : "FF Caramel",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Caramel.blend",
+                            "type" : 0,
+                            "icon_id" : 1041,
+                            "imported_icon_id" : 1042
+                        },
+                        {
+                            "name" : "FF Chocolate",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Chocolate.blend",
+                            "type" : 0,
+                            "icon_id" : 1043,
+                            "imported_icon_id" : 1044
+                        },
+                        {
+                            "name" : "FF Coffee",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Coffee.blend",
+                            "type" : 0,
+                            "icon_id" : 1045,
+                            "imported_icon_id" : 1046
+                        },
+                        {
+                            "name" : "FF Copper",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Copper.blend",
+                            "type" : 0,
+                            "icon_id" : 1047,
+                            "imported_icon_id" : 1048
+                        },
+                        {
+                            "name" : "FF Milk",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Milk.blend",
+                            "type" : 0,
+                            "icon_id" : 1049,
+                            "imported_icon_id" : 1050
+                        },
+                        {
+                            "name" : "FF Orange Juice",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Orange Juice.blend",
+                            "type" : 0,
+                            "icon_id" : 1051,
+                            "imported_icon_id" : 1052
+                        },
+                        {
+                            "name" : "FF Water (clear)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (clear).blend",
+                            "type" : 0,
+                            "icon_id" : 1053,
+                            "imported_icon_id" : 1054
+                        },
+                        {
+                            "name" : "FF Water (iced)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (iced).blend",
+                            "type" : 0,
+                            "icon_id" : 1055,
+                            "imported_icon_id" : 1056
+                        },
+                        {
+                            "name" : "FF Water (ocean 1)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean 1).blend",
+                            "type" : 0,
+                            "icon_id" : 1057,
+                            "imported_icon_id" : 1058
+                        },
+                        {
+                            "name" : "FF Water (ocean 2)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean 2).blend",
+                            "type" : 0,
+                            "icon_id" : 1059,
+                            "imported_icon_id" : 1060
+                        },
+                        {
+                            "name" : "FF Water (ocean volumetric)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean volumetric).blend",
+                            "type" : 0,
+                            "icon_id" : 1061,
+                            "imported_icon_id" : 1062
+                        },
+                        {
+                            "name" : "FF Wax",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Wax.blend",
+                            "type" : 0,
+                            "icon_id" : 1063,
+                            "imported_icon_id" : 1064
+                        },
+                        {
+                            "name" : "FF Wine Red",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Wine Red.blend",
+                            "type" : 0,
+                            "icon_id" : 1065,
+                            "imported_icon_id" : 1066
+                        },
+                        {
+                            "name" : "FF Bubble",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Bubble.blend",
+                            "type" : 1,
+                            "icon_id" : 1067,
+                            "imported_icon_id" : 1068
+                        },
+                        {
+                            "name" : "FF Foam",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Foam.blend",
+                            "type" : 1,
+                            "icon_id" : 1069,
+                            "imported_icon_id" : 1070
+                        },
+                        {
+                            "name" : "FF Spray",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Spray.blend",
+                            "type" : 1,
+                            "icon_id" : 1071,
+                            "imported_icon_id" : 1072
+                        }
+                    ]
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "extras" : {
+                "flip_fluid" : {},
+                "ant_landscape" : {}
+            },
+            "mesh" : 0,
+            "name" : "Bianco Pc WebCam",
+            "rotation" : [
+                0.5321292877197266,
+                -0.5321292877197266,
+                -0.46565908193588257,
+                0.46565911173820496
+            ],
+            "scale" : [
+                0.010429582558572292,
+                0.010429582558572292,
+                0.010429582558572292
+            ],
+            "translation" : [
+                0.4931643605232239,
+                1.09804368019104,
+                0.015623213723301888
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        0.237135764977738,
+                        0.237135764977738,
+                        0.237135764977738
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "extras" : {
+                "flip_fluid_material_library" : {}
+            },
+            "name" : "base.001",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "extras" : {
+                "flip_fluid_material_library" : {}
+            },
+            "name" : "kabel.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cilindro.018",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "TEXCOORD_0" : 1,
+                                "NORMAL" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "TEXCOORD_0" : 5,
+                        "NORMAL" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "TEXCOORD_0" : 1,
+                                "NORMAL" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "bufferView" : 2,
+            "mimeType" : "image/png",
+            "name" : "kabel"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 672,
+            "max" : [
+                0.9999998211860657,
+                1.1758153438568115,
+                1
+            ],
+            "min" : [
+                -1.000000238418579,
+                -1.000000238418579,
+                -5.225946426391602
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 672,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 672,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 1422,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 32,
+            "max" : [
+                0.609302282333374,
+                1.1009596586227417,
+                -1.5794909000396729
+            ],
+            "min" : [
+                -0.6092945337295532,
+                1.1009596586227417,
+                -2.7980878353118896
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 32,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 32,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 90,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 3776,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 444,
+            "byteOffset" : 3776
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 222,
+            "byteOffset" : 4220
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4444,
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAoAXaAwLaAzIB2wI/AakB3/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d93/d17de17/t17fu+6bqma6q6pmu6ruu6ruuaqq6p6rquS6uqqqqqqqqqqqqqqqqqqsqfP/nzJ/nzJ/mTZ9/3fd/3fd/3fd/3fd/3fd/3fd/3fd/3fd+fP/nzJ/nzJ/mTZ9/350/+/En+/En+5Nn3fd/3fd/3fd/3fd/3fd/3fd/3fd/3Af8CyUn/Ap98/wKffAP/AAAAAAABAAABAAkDAAACAQMJAgABAgEBCQMAAgMBAQEBCfF8BTkDIC8gICAgD0AQCyAgMDcgICAgJ5SEQEAvICDExBdAMDfU5CAwD0AgN0AwIBAgIAMQFxAQICBgcBdAMAdQUA9QUA8QM0BAQEAQAxAQEBBPEEP01A8gIBcgIMeEpNTE/x9gYFBwRwkCIAMgUEBAQFsQNxAwmyAPFQH0IDAvtKRPEBAQEGeEhG8QECA7lKQfpLQnIDCEYGcgMIRwVxADEBAQIxAgAxC0xNcQIAfUxGMgQDBwlBdwhDAg/zcwExAQUFAQEAcQEBA7lKQfMBD/ICCEcB8QMD8gIB9gQCAwKyBXQCMgIDcQQC8QEBAQixAvEBBjEHcQEBAQHyAgMCBTEP+/EBDPEEsQA0AwNxBzEBAQEM8QII8gEAsQ3yAQ/wMQ/yMQbyAg/08QSxBLMDAQED8gIP9vICA3ICD/9xC3EDAwZxDvEBAQAxBfQECPEQQJAg8gAxAQDxD//xsQ//87QDD//68QYxAQaxAgQBBHEEcQixADECAXEBB3EBD/lxD//0cg////HyAgEBD/AxD/////LxDzEBDfEP8vEP///zsQ////RzAQ/////5sg////UxD//88Q/2MwEP//0yD///////83MBDzEP///6Mg5yAgEP/bEAMQEP///////////////////////58gIP/HECD/////////////////ixD/////////////////////DzAg/////////////////////wEECQL//////////////////2cQEP///////x8Q/////////////////////////////////////////////////////////////////////////////////////68Q+wmhWdw/skurSIfs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"
+        }
+    ]
+}
