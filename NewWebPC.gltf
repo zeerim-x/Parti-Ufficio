@@ -4,9 +4,7 @@
         "version" : "2.0"
     },
     "extensionsUsed" : [
-        "KHR_draco_mesh_compression",
-        "KHR_materials_specular",
-        "KHR_materials_ior"
+        "KHR_draco_mesh_compression"
     ],
     "extensionsRequired" : [
         "KHR_draco_mesh_compression"
@@ -212,18 +210,6 @@
         },
         {
             "doubleSided" : true,
-            "extensions" : {
-                "KHR_materials_specular" : {
-                    "specularColorFactor" : [
-                        0.237135764977738,
-                        0.237135764977738,
-                        0.237135764977738
-                    ]
-                },
-                "KHR_materials_ior" : {
-                    "ior" : 1.4500000476837158
-                }
-            },
             "extras" : {
                 "flip_fluid_material_library" : {}
             },
@@ -236,7 +222,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.008",
+            "name" : "PCFisso",
             "primitives" : [
                 {
                     "attributes" : {
