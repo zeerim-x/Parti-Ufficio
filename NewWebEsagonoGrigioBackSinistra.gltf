@@ -192,7 +192,57 @@
                 "ant_landscape" : {}
             },
             "mesh" : 0,
-            "name" : "4a - Esagono Baclk Sinistra"
+            "name" : "4a - Esagono Baclk Sinistra",
+            "translation" : [
+                0,
+                0.5899373292922974,
+                0
+            ]
+        }
+    ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "4a - Esagono Baclk Sinistra",
+            "samplers" : [
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 6
+                },
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 7
+                },
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 8
+                }
+            ]
         }
     ],
     "materials" : [
@@ -210,7 +260,7 @@
             "extras" : {
                 "flip_fluid_material_library" : {}
             },
-            "name" : "Materiale.032",
+            "name" : "Materiale.002",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.4115653336048126,
@@ -231,7 +281,8 @@
                     "attributes" : {
                         "POSITION" : 0,
                         "TEXCOORD_0" : 1,
-                        "NORMAL" : 2
+                        "NORMAL" : 2,
+                        "TANGENT" : 3
                     },
                     "extensions" : {
                         "KHR_draco_mesh_compression" : {
@@ -239,11 +290,12 @@
                             "attributes" : {
                                 "POSITION" : 0,
                                 "TEXCOORD_0" : 1,
-                                "NORMAL" : 2
+                                "NORMAL" : 2,
+                                "TANGENT" : 3
                             }
                         }
                     },
-                    "indices" : 3,
+                    "indices" : 4,
                     "material" : 0,
                     "mode" : 4
                 }
@@ -253,11 +305,11 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 42,
+            "count" : 92,
             "max" : [
                 -5.8563361167907715,
-                2.0425498485565186,
-                -0.6005606055259705
+                2.042544364929199,
+                -0.6005606651306152
             ],
             "min" : [
                 -5.8563361167907715,
@@ -268,31 +320,86 @@
         },
         {
             "componentType" : 5126,
-            "count" : 42,
+            "count" : 92,
             "type" : "VEC2"
         },
         {
             "componentType" : 5126,
-            "count" : 42,
+            "count" : 92,
             "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 92,
+            "type" : "VEC4"
         },
         {
             "componentType" : 5123,
             "count" : 120,
             "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2,
+            "max" : [
+                0.08333333333333333
+            ],
+            "min" : [
+                0.041666666666666664
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 374,
+            "byteLength" : 645,
             "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8,
+            "byteOffset" : 648
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 712
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 376,
-            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAKigCKBMAD//z50/+/En+/MmfP0mSZ/8BEf8CuUL/ArlCA/8AAAAAAAEAAAEACQMAAAIBAwkCAAECAQEJAwACAwEBAQAPJ60KDQNtGw0D0RMMfRKKKFR7If0P9P21AACWDBcAAAO+BQBS6AUAsGGJACD8iAAAbBXrAgBW1wALACBN4TIAup0WABBOQQHg+E4RAPCFbQF4YXcAAADwhAFgILoWAO6FbQEgLnkAODgFBQDTGlQAYDSFywAA0DGSAgCuVawLAEBV3wIAqGGJAIAKvQAAYTsyAKC6tAEAbKhPGAAmKwgAaZiEAMCrIGgAaKmNBYAg8wGAmeAYBgAAAGsYAKAJjmEABjIfAFxqYwEgcxwWANQwCQEAD8rIAJCVJAMAAAAA/z8AABtnu8ADpiY/4AsIwJQ4wz8OAQEBAQEBAUABAAAAAAAAAAAAAAAAAAAAgD8AAIA/DAADAQEBAQFAAQD/AwAA/wEAAAoAAA=="
+            "byteLength" : 736,
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAXCgDKAIAD3/2/9+f/dv//93/v/v//f8CxUH/Au5A/wLuQP8C7kAE/wAAAAAAAQAAAgAAAQAJAwAAAgEDCQIAAQIBAQkDAAIDAQQJBAADAgEBAQAPA+EEH70JIQu1EMkCyRIdyrUndK+GQvmbMa07qVLTkvI4G5cVjTHb5HtXJlsAwKtQcgAQuJsAlKwgAMChPmEAkJUkAwAQ3mQAAApqSg4A3O9uAgCAv70JAACTz3MAAF5yeg4AKBMqeQBgOJjhAaDCmgNQJtsADKc8AGYiegDwqmsHABiIVwAAAPCEAYAXIJwFAAAAkxQA8IVtAYClOLQAwHyQPAIAwikoAIb6YwDMZBuAMtcGABRYbg4AGN9YAIAHDRIAGEdrLwCAZca6AGDxiwUAODcWAHDzYgFgNW0AYMMSAQBTCAAAUKEXAACBF/cCAK7VCgwAULCjTgAACbbUCQD4t2EZAFBscloAuLmxABA/IgAAVW29AKBLoQkAZDb/AWAB4RsARP0xADBUIAPg7bQA4FIbC4BjwR4A4pIHAFoUwR0AkFnOfgBgIBikAUAT0QMAL4A4CwAMuwPAQHQtAEANwJ4AELP5DwAuSsEASGHNAQAV2hyA4ZIHgDRMQgAQ2JsAdDstACUnCADUm0UWACzgWwAAq2uABQBhOzIAwIBwAUD4EQFADUsEADDgWwAghV4AAAAAAP8/AAAbZ7vAA6YmP+ALCMCUOMM/DgEBAQEBAQFAAQAAAAAAAAAAAAAAAAAAAIA/AACAPwwAAwEBAQEBQAEA/wMAAP8BAAAKAQEBAQEBAUABAAAAAAAAAAAAAACAPwAAAAAAAACAAACAvwAAgD8MAAAAq6oqPauqqj0AAAAAIgYXPwAAAIAAAAAAIgYXPwAAAIAAAAAAAAAAAAAAAIAAAIA/AAAAAAAAAAAAAACAAACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPw=="
         }
     ]
 }
