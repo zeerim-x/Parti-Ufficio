@@ -193,7 +193,7 @@
             "name" : "Cubo.002",
             "translation" : [
                 0,
-                0.5899373292922974,
+                0.3732631802558899,
                 0
             ]
         }
@@ -388,7 +388,7 @@
     "buffers" : [
         {
             "byteLength" : 920,
-            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAbDADMAAAEt/3fd/3f//3ff/3f9/3f//3ff8CDkL/AjVB/wI1Qf8CNUEE/wAAAAAAAQAAAgAAAQAJAwAAAgEDCQIAAQIBAQkDAAIDAQQJBAADAgEBAQEFu3BNJjQ0NDT//////////////////////////1f5AV0DYQIpA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7s0////////EzT/qzT//////////////////////////////////////////////////0ctApED/////////////////////////4/BA/EDX5BRyp2RMxcUbmuufk1I8iXusuJl9F6umDVBPEeFeRjR8f/RgSQ6ljEHpGC4mNKef7/49oits6549i3IS1yratMCUvtjrHrBlC17dA4x4f/4aJMQ8tuh62mKB/mleYeAAAAAAP8/AABQq83Aolpdv2CsUj0yhQtADgEBAQEDgCBBG//////////////////////////////////////////vYQJhAr0MmRBhAv/////////////////////////////////////////zTDrQDqw5PZoQC21wIsWKLNjiWkVCmuPUSoM3vfSDM7Xq88IzuZ2U4ASdvx0gvttWhW3HPwJ3amCN7m+GAAAAAP8PAAAAAAA+AAAAAAAAgD8MAAMBAQP/B/03//////////eRA0UD//////////MxARYaRJbCD8UwNqUMmUA9SjlWhoSYSCWG/wMAAP8BAAAKAQEBAQOAIAk9A5j////////////////////////////////////////////////////////////////////////////////////rmMkBFCiOqfFjfZDB93Hs651ZBPGnsOVPAAAAAP8PAAAAAIC/AAAAAAAAAIAAAIA/AAAAQAwAAKuqKj2rqqo9AAAAACIGFz8AAACAAAAAACIGFz8AAACAAAAAAAAAAAAAAACAAACAPwAAAAAAAAAAAAAAgAAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8="
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAbDADMAAAEt/3fd/3f//3ff/3f9/3f//3ff8CDkL/AjVB/wI1Qf8CNUEE/wAAAAAAAQAAAgAAAQAJAwAAAgEDCQIAAQIBAQkDAAIDAQQJBAADAgEBAQEFu3BNJjQ0NDT//////////////////////////1f5AV0DYQIpA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7s0////////EzT/qzT//////////////////////////////////////////////////0ctApED/////////////////////////4/BA/EDX5BRyp2RMxcUbmuufk1I8iXusuJl9F6umDVBPEeFeRjR8f/RgSQ6ljEHpGC4mNKef7/49oits6549i3IS1yratMCUvtjrHrBlC17dA4x4f/4aJMQ8tuh62mKB/mleYeAAAAAAP8/AABQq83Aolpdv2CsUj0yhQtADgEBAQEDgCBBG//////////////////////////////////////////vYQJhAr0MmRBhAv/////////////////////////////////////////zTDrQDqw5PZoQC21wIsWKLNjiWkVCmuPUSoM3vfSDM7Xq88IzuZ2U4ASdvx0gvttWhW3HPwJ3amCN7m+GAAAAAP8PAAAAAAA+AAAAAAAAgD8MAAMBAQP/B/03//////////eRA0UD//////////MxARYaRJbCD8UwNqUMmUA9SjlWhoSYSCWG/wMAAP8BAAAKAQEBAQOAIAk9A5j////////////////////////////////////////////////////////////////////////////////////rmMkBFCiOqfFjfZDB93Hs651ZBPGnsOVPAAAAAP8PAAAAAIC/AAAAAAAAAIAAAIA/AAAAQAwAAKuqKj2rqqo9AAAAAFocvz4AAACAAAAAAFocvz4AAACAAAAAAAAAAAAAAACAAACAPwAAAAAAAAAAAAAAgAAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8="
         }
     ]
 }
