@@ -195,15 +195,14 @@
     ],
     "materials" : [
         {
-            "alphaMode" : "BLEND",
             "doubleSided" : true,
             "name" : "MonitorPortatile",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.6717384457588196,
-                    0.8000000715255737,
-                    0.7535388469696045,
-                    0.10000000149011612
+                    0.9926010966300964,
+                    0.9619611501693726,
+                    1,
+                    0
                 ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
