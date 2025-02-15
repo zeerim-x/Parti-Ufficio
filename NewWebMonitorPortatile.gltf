@@ -199,10 +199,10 @@
             "name" : "MonitorPortatile",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.9926010966300964,
-                    0.9619611501693726,
-                    1,
-                    0
+                    0.48908162117004395,
+                    0.5629637837409973,
+                    0.5436033606529236,
+                    1
                 ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
