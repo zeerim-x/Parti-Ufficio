@@ -193,6 +193,22 @@
             "name" : "MonitorPortatile"
         }
     ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "BaseMateriale",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.08017847687005997,
+                    0.13484106957912445,
+                    0.8000000715255737,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
     "meshes" : [
         {
             "name" : "Piano",
@@ -216,6 +232,7 @@
                         }
                     },
                     "indices" : 4,
+                    "material" : 0,
                     "mode" : 4
                 }
             ]
