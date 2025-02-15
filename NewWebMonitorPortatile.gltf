@@ -195,14 +195,15 @@
     ],
     "materials" : [
         {
+            "alphaMode" : "BLEND",
             "doubleSided" : true,
             "name" : "MonitorPortatile",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.08017847687005997,
-                    0.13484106957912445,
+                    0.6717384457588196,
                     0.8000000715255737,
-                    1
+                    0.7535388469696045,
+                    0.10000000149011612
                 ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
@@ -278,14 +279,14 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 251,
+            "byteLength" : 247,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 252,
-            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAABAIDAgAAAR//ARH/ARH/ARH/AREE/wAAAAAAAQAAAgAAAQAJAwAAAgEDCQIAAQIBAQkDAAIDAQQJBAADAgEBAQAOAwEQARAnASADANyPAeBDAgABACIDQAgAAAAA/z8AAFGAh8BukF+/huBWwEBiJT8OAQEBAAMDATABEAMAJIJZAAAAAAD/DwAAAAAAAAAAAAAAAIA/DAADAQAKAwEwGwEQAwAcgv/+A/8DAAD/AQAACgEBAQANEwEQASATARADAPSPKxAALCAA+A8A4w8AAHgAAAAAAP8PAAC1XTU/StRLrwesNL8AAIA/AACPOAwA"
+            "byteLength" : 248,
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAABAIDAgAAAR//ARH/ARH/ARH/AREE/wAAAAAAAQAAAgAAAQAJAwAAAgEDCQIAAQIBAQkDAAIDAQQJBAADAgEBAQAOAwEgARAnARADABSQDAAfUgBIAAAAAAD/PwAAUYCHwG6QX7+G4FbAQGIlPw4BAQEAAwMBIAEgAwDwg6YAAAAAAP8PAAAAAAAAAAAAAAAAgD8MAAMBAAoDATAbARADAByC//4D/wMAAP8BAAAKAQEBAA0DARALARABEBMBEAMAeECwAgFw/wDQ/wAAgAcAAAAA/w8AALVdNT9K1EuvB6w0vwAAgD8AAI84DAA="
         }
     ]
 }
