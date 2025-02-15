@@ -196,7 +196,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "BaseMateriale",
+            "name" : "MonitorPortatile",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.08017847687005997,
@@ -211,7 +211,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Piano",
+            "name" : "MonitorPortatile",
             "primitives" : [
                 {
                     "attributes" : {
@@ -244,7 +244,7 @@
             "count" : 4,
             "max" : [
                 -3.588383197784424,
-                -0.3187231719493866,
+                -0.31871217489242554,
                 -2.711423397064209
             ],
             "min" : [
@@ -278,14 +278,14 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 232,
+            "byteLength" : 251,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 232,
-            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAABAIDAgAAAR//ARH/ARH/ARH/AREE/wAAAAAAAQAAAgAAAQAJAwAAAgEDCQIAAQIBAQkDAAIDAQQJBAADAgEBAQAOAwEgARAnARADABSQDAAfUgBIAAAAAAD/PwAAUYCHwG6QX7+G4FbAQGIlPw4BAQEAAwMBIAEgAwDwg6YAAAAAAP8PAAAAAAAAAAAAAAAAgD8MAAMBAAoDATAbARADAByC//4D/wMAAP8BAAAKAQEBAAMDASABIAMAIIQBEhIAAAAA/w8AAPMENT8AAAAA9AQ1vwAAgD8AAIAzDA=="
+            "byteLength" : 252,
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAABAIDAgAAAR//ARH/ARH/ARH/AREE/wAAAAAAAQAAAgAAAQAJAwAAAgEDCQIAAQIBAQkDAAIDAQQJBAADAgEBAQAOAwEQARAnASADANyPAeBDAgABACIDQAgAAAAA/z8AAFGAh8BukF+/huBWwEBiJT8OAQEBAAMDATABEAMAJIJZAAAAAAD/DwAAAAAAAAAAAAAAAIA/DAADAQAKAwEwGwEQAwAcgv/+A/8DAAD/AQAACgEBAQANEwEQASATARADAPSPKxAALCAA+A8A4w8AAHgAAAAAAP8PAAC1XTU/StRLrwesNL8AAIA/AACPOAwA"
         }
     ]
 }
