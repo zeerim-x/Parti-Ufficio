@@ -1,0 +1,410 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "flip_fluid" : {},
+                "flip_fluid_helper" : {
+                    "is_auto_frame_load_cmd_operator_running" : 0,
+                    "alembic_output_filepath" : "//ScenaSimX.abc",
+                    "is_alembic_output_filepath_set" : 1
+                },
+                "flip_fluid_material_library" : {
+                    "library_path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library",
+                    "material_list" : [
+                        {
+                            "name" : "FF Apple Juice",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Apple Juice.blend",
+                            "type" : 0,
+                            "icon_id" : 1035,
+                            "imported_icon_id" : 1036
+                        },
+                        {
+                            "name" : "FF Beer",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Beer.blend",
+                            "type" : 0,
+                            "icon_id" : 1037,
+                            "imported_icon_id" : 1038
+                        },
+                        {
+                            "name" : "FF Blood",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Blood.blend",
+                            "type" : 0,
+                            "icon_id" : 1039,
+                            "imported_icon_id" : 1040
+                        },
+                        {
+                            "name" : "FF Caramel",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Caramel.blend",
+                            "type" : 0,
+                            "icon_id" : 1041,
+                            "imported_icon_id" : 1042
+                        },
+                        {
+                            "name" : "FF Chocolate",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Chocolate.blend",
+                            "type" : 0,
+                            "icon_id" : 1043,
+                            "imported_icon_id" : 1044
+                        },
+                        {
+                            "name" : "FF Coffee",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Coffee.blend",
+                            "type" : 0,
+                            "icon_id" : 1045,
+                            "imported_icon_id" : 1046
+                        },
+                        {
+                            "name" : "FF Copper",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Copper.blend",
+                            "type" : 0,
+                            "icon_id" : 1047,
+                            "imported_icon_id" : 1048
+                        },
+                        {
+                            "name" : "FF Milk",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Milk.blend",
+                            "type" : 0,
+                            "icon_id" : 1049,
+                            "imported_icon_id" : 1050
+                        },
+                        {
+                            "name" : "FF Orange Juice",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Orange Juice.blend",
+                            "type" : 0,
+                            "icon_id" : 1051,
+                            "imported_icon_id" : 1052
+                        },
+                        {
+                            "name" : "FF Water (clear)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (clear).blend",
+                            "type" : 0,
+                            "icon_id" : 1053,
+                            "imported_icon_id" : 1054
+                        },
+                        {
+                            "name" : "FF Water (iced)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (iced).blend",
+                            "type" : 0,
+                            "icon_id" : 1055,
+                            "imported_icon_id" : 1056
+                        },
+                        {
+                            "name" : "FF Water (ocean 1)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean 1).blend",
+                            "type" : 0,
+                            "icon_id" : 1057,
+                            "imported_icon_id" : 1058
+                        },
+                        {
+                            "name" : "FF Water (ocean 2)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean 2).blend",
+                            "type" : 0,
+                            "icon_id" : 1059,
+                            "imported_icon_id" : 1060
+                        },
+                        {
+                            "name" : "FF Water (ocean volumetric)",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Water (ocean volumetric).blend",
+                            "type" : 0,
+                            "icon_id" : 1061,
+                            "imported_icon_id" : 1062
+                        },
+                        {
+                            "name" : "FF Wax",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Wax.blend",
+                            "type" : 0,
+                            "icon_id" : 1063,
+                            "imported_icon_id" : 1064
+                        },
+                        {
+                            "name" : "FF Wine Red",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\surface\\FF Wine Red.blend",
+                            "type" : 0,
+                            "icon_id" : 1065,
+                            "imported_icon_id" : 1066
+                        },
+                        {
+                            "name" : "FF Bubble",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Bubble.blend",
+                            "type" : 1,
+                            "icon_id" : 1067,
+                            "imported_icon_id" : 1068
+                        },
+                        {
+                            "name" : "FF Foam",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Foam.blend",
+                            "type" : 1,
+                            "icon_id" : 1069,
+                            "imported_icon_id" : 1070
+                        },
+                        {
+                            "name" : "FF Spray",
+                            "description" : "",
+                            "path" : "C:\\Users\\Ciro\\AppData\\Roaming\\Blender Foundation\\Blender\\3.4\\scripts\\addons\\flip_fluids_addon\\materials\\material_library\\whitewater\\FF Spray.blend",
+                            "type" : 1,
+                            "icon_id" : 1071,
+                            "imported_icon_id" : 1072
+                        }
+                    ]
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "extras" : {
+                "flip_fluid" : {},
+                "ant_landscape" : {}
+            },
+            "mesh" : 0,
+            "name" : "Moduli",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.24793851375579834,
+                0.24793851375579834,
+                0.24793851375579834
+            ],
+            "translation" : [
+                -1.2960742712020874,
+                0.2956879436969757,
+                -3.1534152030944824
+            ]
+        }
+    ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "Moduli",
+            "samplers" : [
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 6
+                },
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 7
+                },
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 8
+                }
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.007466368842869997,
+                0.07883858680725098,
+                0.007412636186927557
+            ],
+            "extras" : {
+                "flip_fluid_material_library" : {}
+            },
+            "name" : "Materiale.027",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.030061474069952965,
+                    0.1743505448102951,
+                    0.015020325779914856,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Testo.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2,
+                        "TANGENT" : 3
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "TEXCOORD_0" : 1,
+                                "NORMAL" : 2,
+                                "TANGENT" : 3
+                            }
+                        }
+                    },
+                    "indices" : 4,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 2058,
+            "max" : [
+                1.3345000743865967,
+                0.10000000149011612,
+                0.009000000543892384
+            ],
+            "min" : [
+                -1.3175002336502075,
+                -0.10000000149011612,
+                -0.6820000410079956
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 2058,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 2058,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 2058,
+            "type" : "VEC4"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 3552,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2,
+            "max" : [
+                0.08333333333333333
+            ],
+            "min" : [
+                0.041666666666666664
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 11450,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8,
+            "byteOffset" : 11452
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11460
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 11484
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11516
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 11540,
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAihCgCQOgCQwAvAP/uq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7rui7/ui7/ui7/uq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7rui7/uq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7r8q/ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7r8q/ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7r8q/ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7ruq7r8q/ruq7ruq7ruq7Lv//7/////v///v///2//u7/b/+7/v+////3/////v/3/////v3//v//btv/////////r/v3//+///7Zf/v1tu///////v3f/v///////t///9+b/93/d/7/7vu//u67b///f//////3v9v//ur//9/////7///7///9v/6//2v/r/7/v///9/////7/9/////79//7//27b/////////u/79///v//9d2/77t63//////79f/7///////7f//2/P//d/1///+r7v/6/r2v//3//////9v/b//67/A8BKgP8DfSKB/wN9IoH/A30igQT/AAAAAAABAAACAAABAAkDAAACAQMJAgABAgEBCQMAAgMBBAkEAAMCAQEBAQqLYmHsFQH9Ab0BqQEpA2kC1QFBAREDfQJpAWkBFQEBAZUC0QK9AWkC6QGpAZUB/QFVAWkC6QEVAv0BPQK9AZUB1FUBFQFVAajovQGVAcDoqNTUwNQpAUEBVQHUlAMUVGxAgGxsLECobFRAbCwUQKkB1FSUKQFBAZUBFQFsVJSo6KjUqOjAVQEBAVRAAQGUgFSAVMCAlICAbKioLCwsAywUVQFBASxUQAOUqGxsbFQVAeiAQCxUqIDUgGwUbBSULCyAlJRAgGxsFBRsgGyAQEBAVMCUQFQHlCxUbIBUVCxUqFSUbFRsbIBsQCwHLEBUQICUQEAHFCwsLCwsbFSoqCxALCxUVBQUQFQUFGyAQEBAVFRsQIAUFAMULBQsLAMUgGzAlCwULCxsbFRAVEAHVFRAQKiUFEBsQBRALCxUbGxUFAMULFRAFCwUAywsFBRAVEADFCxAFAdALAcsLCwUBxQUBxQsFCwHFBQHFBRsLAcUFAMUFAsUCywULCwPbGwUFCwsFBQsFBQbFEAHLBQDFFRACxQHFBQsBxQPVCwsFBQsBywDgGxALBQUFBQHFBQHFBQUbBQbQGwsFA8UFC8UAxQrFBQDLB8sFBQjLCwUAywsN0AUNxQPLC8UIxQHLAsUTywsBywsFywPFH8sAxQ3FC8sLCcsLCcUFCcUFB9AVA8UMyxAB0BUNxQDFDssFAMsGywDFBQbLBQvFBQULxQ/LCwXLBQDLB8sFAcsFA8sTxRLFBcsFC8UFAcsFC8UFAssExQHQBQHFDcUBxQsVEALFBsUKxQnFBssQBQTFAtUQB8sVCwHFAsUDxQjFBQHFAssLCwLbFRsVBQTVCwPVFTpAZUBBxQsF0AslEBAFBMsVBQsFCxAQEAHVEBALAeobA8sFBcUFEAslCxsVEAsVBQHQGwvFCwHLBQHLAMsFA8UFAcsC4BAB8BsNyxAAxQUFFQsQEAULBQDLBRALCwsFCwPQCwUFIBULCwsA0BAAyxALAcsFBQLLBQHbFQXLCwfVEAHLCxUbAcsFCwsHywsLBQ/FCwXLBQnLBQsFDcsQB8ULBcsLCdULEBABywUDxQUBxQsFBMULBcsSywUDywrFBMUQBcUFCwULBssFBdULB8sVIMUSxQsLAcUQBcsC1RABywDbBQHLBQXFBQXFBQXFBQDLA8sFAcsFA8UAxQUDywULxRABxQTLCwHFDMUNxRnLBRTFAMUExRPLCw3LBQnFBssCywUByw3FAdAFCwUBywsLEAHLBSU1DcsIywUDywUBywDLNMUAywsUxQDFBcsFAcULBMUXxQUNywsPywsLBssLC8UFAcsLBQDFAMsFHMUDyxAJxQDLBRHLCwDLCcUFHcUFANUkyw7FBcUFCMUHxQUGywvLBQ3QBRAFBMUJ0AUDywUPywsP1QsPywUpxQrLCzU6FssBxQ3LBcUixQjFBRDFAMUExQTFEdAPxQvLBQTFF8UIywULA8UFxQUB2wUHxQ7FBQfLCx/LBQnQBQPFBsUFPMUFxQDFGxfLECfFKsULHsUAxQHFEsUFC8sLC8UCywTLBRPFP8bLEBPQCxfFINALFMULxQUHxQzFCsUDxRfFBSPLCwHFAMsQyxTFEAnVGxHFEcUBxRPFCcUFBsUNxQTLBMUgxQLFKMUOxQjLCwPFAcUZywsKxQnLBMUOxS3FJcUlxRvFEMsFG8UFBMUZywUQxQXLHcU//+DFEMUFxQUfxRAbxQU/7MUtywUSxQLFBQscxQDLCMUtxS3LEsUExSzFFMUDxQsI0BjFFMUIxQ3FEcU/8MUYxQU///XQEcU//+HFNcUmywjFCyzFP9UbNsUGxRTFP9zFP8rFAsU/xMsAxRXFBRjLP//nxT//y8U//////dslIsUyxSbFP///5cU////////jxT///////MU//8bFFsU///vFP////+7FMPA1P9bFBMUIxT/////////////////8xT//////////////////////////////////////////////5sU/////////////////0MU4yMA0bSbGrBG0PufRRc4iSI6msEy+5LKHEqnXhCAjB6A3AFXJWaSTIIovRBeySdwUI1WsrJ8D5AV4o85vD2PNh5+8vxJmGsfiyZWIxxoPCO1NU739BrFs2AqoHb06ncf6Kqxnlndf+B5WnfSkLUNJyknAa5WqKIz1x8AiHX7FuLrXrQ+wX+HpPHTTgV0ZS4oiBRyzHGBbZ7MzzCREyJ1+PuOo13aai6zqTqVADA11nXvzBQ0SlPRDK8ESJbaLp1lu/TacfgU059PXSR0i1QjiwYVG1iTPyQoVJjTlb1rx6ZxDV8lXKLr6xNgCQnBlqQI4jZ5FHK+ZF5pVEU67Gz1fZqi8NLrp3rrQVGzGb49m2thkcNkqbAP9vgMTqYSqo4peGIzeeAOsEXWXmsh9zKEE5cVO1ol6cyT1dDBcfzr8svnc7VsViXK85iBz8c+BdHTXBBuhTzsoYkuE+5k11Ea1wgJ8DLC6AQq17wFXietdPqWcPtaH6EsinHLdVc4t2Eqqm4ZeXWFx1amaKXXMCSv+bzX9HaUNpeWqsBR2lRhtkSeE7aAUNoX24hGYR+OEoEBMjeqIXF3MGdrn5ckKXQidhJ6NuqWcZeI6Jto9waUx9sZRVj3CFmiA0lu4ZOsr6P9RQYIQ3n8wu62HChE+Y1BDV21pDHz0vUkHJ59tu3a4/fw9OGMLJe2ICfzXS33VxZ505IMKcFSoJOYs3NUiuWHgPkQi0iQtNicvLNytYzA3Dxe5s01OgSPM6e1M93GuqoJ535JHey3NCZR6bF/YKGsuZWBbdQCCzwGUF6U1XYFk2UqjtKyERGcA6pytgPstjiPL5j0BuBELdu8wu4bciKP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"
+        }
+    ]
+}
